@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+.navbar{
+    box-shadow: 1px 1px 1px 1px skyblue;
+    opacity: 0.9;
+}
+ul li
+{
+    font-weight:700;
+}
+#header{
+    background: url("../Project2/Images/f9.gif") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+.p1nav{
+    font-size: 5vh;
+    font-family: 'Great Vibes', cursive;
+    
+}
+.btnres
+{
+    padding:10px 25px;  
+    border:2px solid white !important;
+    transition:all 300ms linear 0ms;
+    background: transparent;
+    font-size:10px;
+    color: white; 
+}
+.btnres:hover
+{
+    background-color:#bc8d46; 
+    border-color:#bc8d46 !important;
+    color: white;
+}
+.btnfind
+{
+    padding:15px 100px;  
+    border:2px solid #bc8D46 !important;
+    transition:all 300ms linear 0ms;
+    background: transparent;
+    font-size:10px;
+    font-weight:bold !important; 
+    color: white;   
+}
+.btnfind:hover
+{
+   background-color: #bc8d46;
+   color:white; 
+}
+.h2nav{
+    font-size: 10vh;
+  font-family: Kaushan Script;
+}
+
+.p2nav{
+    font-size: 1.2em;
+    font-family: Raleway;
+    font-weight: 700;
+}
+.img-arrow-btm
+{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    /* width:30%;   */
+}
+#special{
+     background: url("../Project2/Images/black4.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+.btnmenu
+{
+    padding:15px 35px;  
+    /* border:2px solid black !important; */
+    transition:all 300ms linear 0ms;
+    /* background: transparent; */
+    font-size:10px;
+    color: white !important;  
+    background-color: black;
+    font-weight: 900 !important;
+}
+.btnmenu:hover
+{
+    background-color:#bc8d46 !important; 
+    /* border-color:#bc8d46 !important; */
+    color: white;
+}
+
+
+#guest{
+    background: url("../Project2/Images/header.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.fa{
+    color: goldenrod;
+}
+
+#news{
+    background: url("../Project2/Images/f7.gif") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+#footer{
+    background: url("../Project2/Images/wood.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+@media (max-width: 600px) {
+  .p1nav {
+    padding:0px; 
+    margin: 0px;
+     font-size:3vh; }
+     
+     .h2nav 
+     {
+         font-size:5vh; 
+     }
+    .p2nav
+    {
+        font-size:2vh; 
+    }    
+}
